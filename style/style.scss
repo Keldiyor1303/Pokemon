@@ -5,3 +5,32 @@ body {
     background-color:#FFD845;
     width: 100%;
 }
+
+.section-1 {
+    img {
+        width: 610px;
+        height: 225px;
+    }
+
+    select {
+        width: 260px;
+        border-radius: 15px;
+        border: 2px solid #000000;
+    }
+
+    input {
+        width: 300px;
+        border-radius: 15px;
+        border: 2px solid #000000;
+
+        &::placeholder {
+            color: #000000;
+        }
+    }
+
+    button {
+        width: 200px;
+        border-radius: 15px;
+        border: 2px solid #000000;
+    }
+}
